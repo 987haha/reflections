@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+   It helps me pinpoint the exact location of the changes that have been made
+and what changes exactly were made. It also helps that we dont need to search the
+entire file which might be thousands of lines of code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can easily access old versions of my project meaning I can easily revert to
+old stable build which doesnt have the bug introduced in recent commit. I can see
+what changes have been made by other people, what is removed and why.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    If we have automatically saved versions, the new version might not be understandable
+and minght not even compile. The new version might also be too big or too small for it to be 
+commited at once. Whereas with the manual approach you judge when a change is big enough or 
+appropriate to save.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because we do atomic commits, meaning that we commit a logical change which might
+be affecting multiple files such as html and css files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log is used to see all commits, their ids and descriptions. We can use the
+id of two commits to compare them with the command git diff and then the two commit ids.
+This shows us in red the parts which were ommited in the new commit and in green the
+parts which were added with the new commit. We assume the old commit is the left one and the 
+right is the new commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Beacause i can easilly revert the changes which introduced the bug. Even if I don't know 
+which change exactly introduced the bug i can easilly revert to earlier version whithout it.
+Thus I can pinpoint the exact version which introduced the bug and what introduced it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would love to try using git for all my future projects.
